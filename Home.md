@@ -574,3 +574,14 @@ method="post"
 
 
 servlet->doPost()
+
+
+
+
+Bean:
+
+
+use Bean Action Elements:
+
+<jsp:useBean id="u" class="org.sssit.User"></jsp:useBean>  
+<jsp:setProperty property="*" name="u"/>  
