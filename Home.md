@@ -2,6 +2,18 @@ Welcome to the servlet wiki!
 
 servlets:
 
+web.xml:
+
+<web-app>
+<display-name>demo app</display-name>
+<description>com.servletname<description>
+</init-param>
+<servlet-mapping>
+<servlet-name>demo.servlet</servlet-demo>
+<url-pattern>*do</url-pattern>
+</servlet-mapping>
+</web-app>
+
 
 
 
